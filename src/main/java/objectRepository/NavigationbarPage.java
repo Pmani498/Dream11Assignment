@@ -3,7 +3,6 @@ package objectRepository;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import genericUtility.InstanceClass;
 import io.appium.java_client.android.AndroidDriver;
 
@@ -17,6 +16,10 @@ public class NavigationbarPage extends InstanceClass{
 	private WebElement myMatchIcon;
 	@FindBy(xpath = "//android.widget.TextView[@index='2']") 
 	private WebElement getMatchText;
+//	@FindBy(xpath = "//android.widget.TextView[@text='Upcoming']") 
+//	private WebElement upcomingMatches;
+//	@FindBy(xpath = "//android.widget.TextView[@text='Live']")
+//	private WebElement liveMatches;
 	@FindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Winners\"]/android.widget.FrameLayout/android.widget.ImageView") 
 	private WebElement winnersIcon;
 	@FindBy(xpath = "//android.widget.TextView[@text='Winners']") 
@@ -37,8 +40,21 @@ public class NavigationbarPage extends InstanceClass{
 		
 		myMatchIcon.click();
 		String myMatch = getMatchText.getText();
+		/*String upcomingMatch = upcomingMatches.getText();
+		String liveMatch= liveMatches.getText();
+		if(upcomingMatches.equals("Upcoming")){
+			javaUtility.printStatement(upcomingMatch);
+		}
+		else if(liveMatches.equals("Live")) {
+			javaUtility.printStatement(liveMatch);
+		}
+		else {
+			javaUtility.printStatement("No Matches");
+		}*/
 		return myMatch;
 	}
+		
+	
 	
 	public String winnersbtn() {
 		winnersIcon.click();

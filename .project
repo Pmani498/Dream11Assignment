@@ -22,9 +22,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/test/resources/testresources/Drem11TestData.xlsx</name>
+			<name>src/test/resources/testresources/Dream-11TestData.xlsx</name>
 			<type>1</type>
-			<location>F:/Mani/Eclipse/Selenium/Assigement/src/test/resources/testresources/Drem11TestData.xlsx</location>
+			<location>F:/Mani/Eclipse/Selenium/Dream-11Assesment/src/test/resources/testresources/Dream-11TestData.xlsx</location>
 		</link>
 	</linkedResources>
 </projectDescription>

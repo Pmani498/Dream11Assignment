@@ -11,24 +11,24 @@ public class VerifytheNavigationbaronHomescreenTest extends BaseClass {
 	public void navigationTool() throws MalformedURLException, InterruptedException {
 		
 		NavigationbarPage navigationbar = new NavigationbarPage(driver);
-		String expectedMatchname = excelUtility.getDataFromExcel("NavigationBar", 1, 1);
+		String expectedMatchname = excelUtility.getDataFromExcel("NavigationBar", 1, 2);
 		String actualMatchname = navigationbar.myMatches();
-		System.out.println(actualMatchname);
+		javaUtility.printStatement(actualMatchname);
 		Assert.assertEquals(actualMatchname, expectedMatchname, "Not validated");
 
-		String expectedWinnersname = excelUtility.getDataFromExcel("NavigationBar", 2, 1);
+		String expectedWinnersname = excelUtility.getDataFromExcel("NavigationBar", 2, 2);
 		String actualWinnersname = navigationbar.winnersbtn();
-		System.out.println(actualWinnersname);
+		javaUtility.printStatement(actualWinnersname);
 		Assert.assertEquals(actualWinnersname, expectedWinnersname, "Not validated");
 
-		String expectedChatTitle = excelUtility.getDataFromExcel("NavigationBar", 3, 1);
+		String expectedChatTitle = excelUtility.getDataFromExcel("NavigationBar", 3, 2);
 		String actualchatTitle = navigationbar.chatbtn();
-		System.out.println(actualchatTitle);
+		javaUtility.printStatement(actualchatTitle);
 		Assert.assertEquals(actualchatTitle, expectedChatTitle, "Not validated");
 
-		String expectedRewardname = excelUtility.getDataFromExcel("NavigationBar", 4, 1);
+		String expectedRewardname = excelUtility.getDataFromExcel("NavigationBar", 4, 2);
 		String actualRewardname = navigationbar.rewardbtn();
-		System.out.println(actualRewardname);
+		javaUtility.printStatement(actualRewardname);
 		Assert.assertEquals(actualRewardname, expectedRewardname, "Not validated");
 
 	}

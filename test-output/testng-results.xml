@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-25T20:20:38 IST" name="Default suite" finished-at="2022-08-25T20:21:09 IST" duration-ms="31162">
+  <suite started-at="2022-08-26T10:37:30 IST" name="Default suite" finished-at="2022-08-26T10:38:03 IST" duration-ms="33215">
     <groups>
     </groups>
-    <test started-at="2022-08-25T20:20:38 IST" name="Default test" finished-at="2022-08-25T20:21:09 IST" duration-ms="31162">
-      <class name="dream11project.verifytheMatchCardTest">
-        <test-method is-config="true" signature="serverstart()[pri:0, instance:dream11project.verifytheMatchCardTest@c430e6c]" started-at="2022-08-25T20:20:38 IST" name="serverstart" finished-at="2022-08-25T20:20:39 IST" duration-ms="1443" status="PASS">
+    <test started-at="2022-08-26T10:37:30 IST" name="Default test" finished-at="2022-08-26T10:38:03 IST" duration-ms="33215">
+      <class name="dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest">
+        <test-method is-config="true" signature="serverstart()[pri:0, instance:dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest@c430e6c]" started-at="2022-08-26T10:37:30 IST" name="serverstart" finished-at="2022-08-26T10:37:31 IST" duration-ms="1090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- serverstart -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:dream11project.verifytheMatchCardTest@c430e6c]" started-at="2022-08-25T20:20:39 IST" name="openApp" finished-at="2022-08-25T20:20:53 IST" duration-ms="13773" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest@c430e6c]" started-at="2022-08-26T10:37:31 IST" name="openApp" finished-at="2022-08-26T10:37:44 IST" duration-ms="12623" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="verifytheMatchcard()[pri:0, instance:dream11project.verifytheMatchCardTest@c430e6c]" started-at="2022-08-25T20:20:53 IST" name="verifytheMatchcard" finished-at="2022-08-25T20:21:09 IST" duration-ms="15584" status="PASS">
+        <test-method signature="navigationTool()[pri:0, instance:dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest@c430e6c]" started-at="2022-08-26T10:37:44 IST" name="navigationTool" finished-at="2022-08-26T10:38:03 IST" duration-ms="19119" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifytheMatchcard -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:dream11project.verifytheMatchCardTest@c430e6c]" started-at="2022-08-25T20:21:09 IST" name="closeApp" finished-at="2022-08-25T20:21:09 IST" duration-ms="301" status="PASS">
+        </test-method> <!-- navigationTool -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest@c430e6c]" started-at="2022-08-26T10:38:03 IST" name="closeApp" finished-at="2022-08-26T10:38:03 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="closeserver()[pri:0, instance:dream11project.verifytheMatchCardTest@c430e6c]" started-at="2022-08-25T20:21:09 IST" name="closeserver" finished-at="2022-08-25T20:21:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closeserver()[pri:0, instance:dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest@c430e6c]" started-at="2022-08-26T10:38:03 IST" name="closeserver" finished-at="2022-08-26T10:38:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeserver -->
-      </class> <!-- dream11project.verifytheMatchCardTest -->
+      </class> <!-- dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

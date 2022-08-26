@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dream11project.verifytheMatchCardTest">
+      <class name="dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest">
         <methods>
           <include name="closeApp"/>
           <include name="serverstart"/>
           <include name="closeserver"/>
-          <include name="verifytheMatchcard"/>
           <include name="openApp"/>
+          <include name="navigationTool"/>
         </methods>
-      </class> <!-- dream11project.verifytheMatchCardTest -->
+      </class> <!-- dream11ProjectScripts.VerifytheNavigationbaronHomescreenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
